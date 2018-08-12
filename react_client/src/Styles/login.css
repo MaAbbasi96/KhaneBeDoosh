@@ -1,0 +1,73 @@
+@import "cssReset.css";
+@import "font.css";
+@import "footer.css";
+@import "header.css";
+@import "titleDescription.css";
+@import "button.css";
+
+.body-login *{
+	font-family: Shabnam;
+	text-align: right;
+	direction: rtl;
+}
+
+.login {
+    height:400px;
+	width:100%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+.login .login-box .input-box{
+    color:gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-style: groove;
+}
+
+.login .login-box *{
+    width: 100%;
+}
+
+.login .login-box .submit{
+    text-align: center;
+    color: white;
+    background-color: #3AD2CB;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+}
+
+.login .login-box .register-button{
+    background-color: rgb(57, 151, 147);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 80px;
+}
+
+.tex-title{
+    justify-content: center; /*vasat ofoghi */
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	color: #9A9A9A;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.alert{
+    justify-content: center;
+    display: none;
+}
+
+.body-login .navbar .default .user-info-div{
+    display: none;
+}

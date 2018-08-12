@@ -1,0 +1,146 @@
+@import "font.css";
+@import "cssReset.css";
+@import "searchBox.css";
+@import "button.css";
+@import "userInfo.css";
+
+.home-page .navbar .user-info-div{
+    left: -10%;
+}
+
+.home-page .navbar .list{
+    width: 10%;
+}
+
+.slideshow{
+    direction: rtl;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin:0 auto;
+}
+
+.slideshow .banner-image{
+    animation: backgroundAnimation;
+    height: 550px;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    width: 400%;
+}
+
+.slideshow .banner-image img{
+    width: 25%;
+    object-fit: cover;
+    float: right;
+    height: 100%;
+}
+
+@keyframes backgroundAnimation {
+    0%, 20%{
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    25%, 45%{
+        -webkit-transform: translateX(25%);
+        -moz-transform: translateX(25%);
+        -ms-transform: translateX(25%);
+        -o-transform: translateX(25%);
+        transform: translateX(25%);
+    }
+    50%, 70%{
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        -o-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    75%, 95%{
+        -webkit-transform: translateX(75%);
+        -moz-transform: translateX(75%);
+        -ms-transform: translateX(75%);
+        -o-transform: translateX(75%);
+        transform: translateX(75%);
+    }
+}
+
+.home-page .navbar .logo-container{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+.home-page .navbar .logo{
+    width: 100px;
+    height: 100px;
+}
+
+.home-page .navbar .logo-text{
+    color: white;
+    font-weight: bold;
+}
+
+.middle{
+    direction: rtl;
+    text-align: center;
+    margin-top: 50px;
+    vertical-align: top;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.middle .feature{
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px 40px;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1)
+       
+}
+
+.middle .feature .big-text{
+    margin-top: 20px;
+    font-size:25px;
+}
+
+.middle .feature img{
+    height: 75px;
+}
+
+.middle .feature .small-text{
+    font-size:16px;
+    margin-top: 20px;
+}
+
+.why{
+    margin-top: 50px;
+    direction: rtl;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description{
+    direction: rtl;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.description-img img{
+    width: 100%;
+}
+
+.description .list{
+    float: right;
+}
+
+.description .list ul li{
+    margin-top: 10px;
+}
+
+.description .list ul li i{
+    color: purple;
+}

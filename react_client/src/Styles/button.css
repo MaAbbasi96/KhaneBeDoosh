@@ -1,0 +1,23 @@
+.submit{
+    outline: none;
+    text-align: center;
+    color: white;
+    background-color: #3AD2CB;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 0 2px 80px rgba(0, 0, 0, 0.1);
+    -webkit-transition: box-shadow 0.5s ease-out;
+    -moz-transition: box-shadow 0.5s ease-out;
+    -o-transition: box-shadow 0.5s ease-out;
+    transition: box-shadow 0.5s ease-out;
+}
+
+.submit:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.submit:active{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}

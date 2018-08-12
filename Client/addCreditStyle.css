@@ -1,0 +1,60 @@
+@import "cssReset.css";
+@import "font.css";
+@import "footer.css";
+@import "header.css";
+@import "titleDescription.css";
+@import "button.css";
+
+body *{
+	font-family: Shabnam;
+	text-align: right;
+	direction: rtl;
+}
+
+.add-credit {
+    height:200px;
+	width:100%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+.add-credit .current-credit .title{
+    color:gray;
+    margin-left: 20px;
+}
+
+.add-credit .current-credit .toman{
+    color: gray;
+    margin-right: 5px;
+}
+
+.add-credit .add-box *{
+    width: 100%;
+}
+
+.add-credit .add-box .price-input .toman{
+    text-align: left;
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 2px;
+    padding-left: 15px; 
+}
+
+.add-credit .add-box .price-input .price{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-style: groove;
+}
+
+.add-credit .add-box .submit{
+    text-align: center;
+    color: white;
+    background-color: #3AD2CB;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}

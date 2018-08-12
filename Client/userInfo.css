@@ -1,0 +1,66 @@
+.navbar {
+    position: relative;
+    text-align: center;
+}
+
+.navbar .user-info-div{
+    position: relative;
+    top: 20px;
+}
+
+.navbar .user {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.navbar .user-info .info{
+    margin: 0px 0px 25px 0px;
+}
+
+.navbar .user-info .user-name{
+    text-align: right;
+    font-size: 14px;
+}
+
+.navbar .user-info .balance{
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list:hover .user-info{
+    opacity: 1;
+    visibility: visible;
+}
+
+.user-info-div .list li div{
+    height: 10px;
+}
+
+.navbar .list{
+    list-style: none;
+    display: flex;
+}
+
+.center{
+    margin: auto;
+}
+
+.navbar .user-info{
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 0px 5px 5px 5px;
+    position: absolute;
+    background-color: white;
+    padding: 25px 25px 25px 25px;
+    box-shadow: 0 2px 80px rgba(0,0,0,0.1);
+}

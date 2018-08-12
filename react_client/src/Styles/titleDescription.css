@@ -1,0 +1,14 @@
+.title-des{
+	height:150px;
+	width: 100%;
+	background-image: url("./../assets/pattern/geometry2.png");
+	display: flex;
+	align-items: center;
+	color: #2ed0cb;
+}
+
+.title-des .text-title{
+	padding-right: 10%;
+	font-size: 30px;
+	font-weight: bold;
+}

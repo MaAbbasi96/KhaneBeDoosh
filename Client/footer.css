@@ -1,0 +1,32 @@
+.footer {
+	direction: rtl;
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	height:80px;
+	width:100%;
+	background-color: #185956;
+	color: white;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.footer .social-networks{
+	display: flex;
+	direction: ltr;
+}
+
+.footer .social-networks *{
+	height: 40px;
+	margin-left: 10px;
+}
+
+.body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;      
+}
+
+.content{
+    flex: 1;
+}
